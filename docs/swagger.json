@@ -1,14 +1,7 @@
 {
     "swagger": "2.0",
     "info": {
-        "description": "Go Clean Architecture REST API",
-        "title": "Go Clean Architecture REST API",
-        "contact": {
-            "name": "",
-            "url": "",
-            "email": ""
-        },
-        "version": "1.0"
+        "contact": {}
     },
     "basePath": "/api/v1",
     "paths": {

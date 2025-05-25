@@ -22,9 +22,9 @@ logger:
 postgres:
   PostgresqlHost: localhost
   PostgresqlPort: 5432
-  PostgresqlUser: postgres
-  PostgresqlPassword: postgres
-  PostgresqlDbname: auth_db
+  PostgresqlUser: ayoadmin
+  PostgresqlPassword: ayoadmin
+  PostgresqlDbname: ayodb
   PostgresqlSslmode: false
   PgDriver: pgx
 

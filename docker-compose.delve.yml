@@ -18,7 +18,7 @@ services:
     cap_add:
       - SYS_PTRACE
     depends_on:
-      - postgesql
+      - postgresql
       - redis
     restart: always
     volumes:
@@ -35,9 +35,9 @@ services:
     networks:
       - web_api
 
-  postgesql:
+  postgresql:
     image: postgres:12-alpine
-    container_name: api_postgesql
+    container_name: api_postgresql
     ports:
       - "5432:5432"
     restart: always
@@ -102,3 +102,5 @@ services:
 networks:
   web_api:
     driver: bridge
+
+    

@@ -169,13 +169,7 @@ definitions:
         type: array
     type: object
 info:
-  contact:
-    email: alexander.bryksin@yandex.ru
-    name: Alexander Bryksin
-    url: https://github.com/AleksK1NG
-  description: Example Golang REST API
-  title: Go Example REST API
-  version: "1.0"
+  contact: {}
 paths:
   /auth/{id}:
     delete:

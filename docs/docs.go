@@ -18,11 +18,7 @@ var doc = `{
     "info": {
         "description": "{{.Description}}",
         "title": "{{.Title}}",
-        "contact": {
-            "name": "",
-            "url": "",
-            "email": ""
-        },
+        "contact": {},
         "version": "{{.Version}}"
     },
     "host": "{{.Host}}",
@@ -1075,12 +1071,12 @@ type swaggerInfo struct {
 
 // SwaggerInfo holds exported Swagger Info so clients can modify it
 var SwaggerInfo = swaggerInfo{
-	Version:     "1.0",
+	Version:     "",
 	Host:        "",
 	BasePath:    "/api/v1",
 	Schemes:     []string{},
-	Title:       "Go Example REST API",
-	Description: "Example Golang REST API",
+	Title:       "",
+	Description: "",
 }
 
 type s struct{}
